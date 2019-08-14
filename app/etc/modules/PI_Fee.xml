@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <PI_Fee>
+            <active>true</active>
+            <codePool>community</codePool>
+        </PI_Fee>
+    </modules>
+</config> 

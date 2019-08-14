@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>PI_Fee</name>
+    <version>0.1.4</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension add an additional fee to grand total of the magento's checkout process.</summary>
+    <description>Using this extension you can easily add an additional fee on grand total.You can also change or disable this additional fee from admin.</description>
+    <notes>This is a stable version.</notes>
+    <authors><author><name>pureimagination</name><user>pureimagination</user><email>johncarter15oct@gmail.com</email></author></authors>
+    <date>2014-11-23</date>
+    <time>06:25:52</time>
+    <contents><target name="magecommunity"><dir name="PI"><dir name="Fee"><dir name="Block"><dir name="Sales"><dir name="Order"><file name="Total.php" hash="0f4fe929a4c7f97176507379e7b22d98"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="5f402e4a5891c5285a54248a1c6d18dd"/></dir><dir name="Model"><file name="Fee.php" hash="45771aa1ee90c98952511591f4ec90b2"/><file name="Observer.php" hash="d6526586a4820da42132372646dde091"/><dir name="Sales"><dir name="Order"><dir name="Total"><dir name="Creditmemo"><file name="Fee.php" hash="11bfd9e806221dd15e5bd07ca0d15a13"/></dir><dir name="Invoice"><file name="Fee.php" hash="44871a880ef6af8782a8233b8c16f331"/></dir></dir></dir><dir name="Quote"><dir name="Address"><dir name="Total"><file name="Fee.php" hash="f23151ec6e24eafbe33cfd44b1d8ec4a"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="2baad5a6d2d20b477f201bfb028a532e"/><file name="system.xml" hash="399254c912d9fe2932dbc7e6295cc02c"/></dir><dir name="sql"><dir name="fee_setup"><file name="mysql4-install-0.1.0.php" hash="f508931a7a4eed80560bb87889fc9b59"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="683617f1cf9d393ccd6459aa0976c6af"/><file name="mysql4-upgrade-0.1.1-0.1.2.php" hash="e3904443f5aa3d891ff66c1085d87ce9"/><file name="mysql4-upgrade-0.1.2-0.1.3.php" hash="ab135913c99bd5afd1d8d37eb192c33a"/><file name="mysql4-upgrade-0.1.3-0.1.4.php" hash="e024f48acdc691c388f409c5bc33eed3"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="PI_Fee.xml" hash="0c59169d1fa460aa01db3f5827ed7030"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="fee.xml" hash="96955d111e2a9014d5dc3d18201ddddf"/></dir><dir name="template"><dir name="fee"><dir name="sales"><dir name="order"><file name="refunded.phtml" hash="f4239d313366d75907a34b3342b35eb1"/><file name="total.phtml" hash="bbb080fb20415086d72719c1f1f613d4"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="fee.xml" hash="c996810fe61c41d2698b248fa6a9b2ec"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

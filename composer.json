@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/PI_Fee",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This extension add an additional fee to grand total of the magento's checkout process.",
+    "authors": [
+    {
+        "name": "pureimagination",
+        "email": "johncarter15oct@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
