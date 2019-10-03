@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/PI_Fee",
+    "name": "openmage-module-fostering\/pi_fee",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension add an additional fee to grand total of the magento's checkout process.",
     "authors": [
